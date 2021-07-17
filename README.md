@@ -4,6 +4,7 @@ The app is deployed at http://schudle.ml/
 Test Dashboard: https://schudle.azurewebsites.net/gajera
 
 Username: admin
+
 Password: 123
 
 Schudle is an Online Learning Management website for schools. The platform helps schools to manage schools online. Key features are:
