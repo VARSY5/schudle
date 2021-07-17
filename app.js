@@ -1,6 +1,7 @@
 //Importing
 require('dotenv').config()
 const express = require('express');
+const compression = require('compression');
 const mongoose = require('mongoose');
 const _ = require('lodash');
 const bodyParser = require('body-parser');
@@ -68,6 +69,9 @@ const decrypt = (hash) => {
 
 //express app
 const app = express();
+
+//compress all responses
+app.use(compression());
 
 
 //app use
